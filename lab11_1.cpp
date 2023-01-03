@@ -31,14 +31,17 @@ int main(){
 	        if(grade=='0'){
 	            break;
 	        }   
-	        cout << "Wrong input. Please input again.";
+	        cout << "Wrong input. Please input again."<<endl;
 	    }
 	}while(true);
 	
 	
-	cout << "In total ? students.";
+	cout << "In total "<<i-1<<" students."<<endl;
 	cout << "A = " << count[0] <<", ";
 	cout << "B = " << count[1] <<", ";	
+	cout << "C = " << count[2] <<", ";
+	cout << "D = " << count[3] <<", ";
+	cout << "F = " << count[4];
 	//	and so on ... for grade = C, D, F	
 	
 	return 0;
